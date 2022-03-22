@@ -1,0 +1,25 @@
+.contact_page {
+    margin-top: 90px;
+    padding: 3.4rem 1.5rem;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.contact_page .form {
+    border-left: 1px solid #cccccc;
+    padding-left: 60px;
+    width: 44%;
+}
+@media screen and (max-width: 940px) {
+    .contact_page{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact_page .form {
+        border-left: none;
+        padding-left: 0;
+        margin-top: 36px;
+        width: 80%;
+    }
+}

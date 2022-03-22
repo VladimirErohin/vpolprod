@@ -1,0 +1,16 @@
+.form_email {
+    display: flex;
+    flex-direction: column;
+}
+
+.input_field{
+    margin-top: 10px;
+}
+.form_email button{
+    width: 100px;
+}
+@media screen and (max-width: 940px) {
+    .form_email {
+        width: 100%;
+    }
+}

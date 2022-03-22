@@ -1,0 +1,40 @@
+.about_us .logo{
+    display: flex;
+}
+
+.about_us .logo img{
+    width: 150px;
+    height: 62px
+}
+
+.about_us .logo span {
+    color: #75c7d0;
+}
+
+.about_us .logo h1 {
+    margin:24px 0 0 8px;
+    color: #bfc1ca;
+}
+
+.description {
+    color: white;
+    line-height:22px;
+    margin-top: 8px;
+}
+
+@media screen and (max-width: 940px) {
+    .about_us{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1130px) {
+    .about_us .logo{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .about_us .logo h1{
+        margin-top: 10px;
+    }
+}

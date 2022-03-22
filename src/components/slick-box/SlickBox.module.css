@@ -1,0 +1,33 @@
+.slick_box{
+    width: 100%;
+    margin: 4rem 0;
+    text-align: center;
+}
+
+
+.slick_box img{
+    width: 270px;
+    height: 310px;
+    padding: 0 10px;
+}
+
+@media screen and (max-width: 940px) {
+    .slick_box{
+        width: 100%;
+        margin: 1rem 0;
+        text-align: center;
+        padding: 1rem;
+    }
+}
+
+/*.item{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    height: 250px;*/
+/*    width: 100%;*/
+/*    !*background-color: #00008B;*!*/
+/*    color: #fff;*/
+/*    margin: 0 15px;*/
+/*    font-size: 4em;*/
+/*}*/

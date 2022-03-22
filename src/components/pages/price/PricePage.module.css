@@ -1,0 +1,47 @@
+.prices_page{
+    margin: 96px 0 0;
+    padding: 0 1.5rem 3rem 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    min-height:356px ;
+}
+
+.prices_title {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.correct_price{
+    display: flex;
+    align-items: flex-end;
+    font-weight: bold;
+    margin-top: 14px;
+}
+
+.order_phone:hover {
+    color: #75c7d0;
+}
+
+.order_phone {
+    display: flex;
+    font-weight: bold;
+    font-family: Roboto;
+}
+
+.order_icon {
+    font-size: 1.5rem;
+    margin-left: 6px;
+}
+
+.star{
+font-size: 24px;
+}
+
+@media screen and (max-width: 940px) {
+.correct_price{
+    display: flex;
+    flex-wrap: wrap;
+}
+}

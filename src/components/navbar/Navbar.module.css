@@ -1,0 +1,144 @@
+.navbar {
+    width: 100%;
+    height: 90px;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    position: fixed;
+    z-index: 20;
+}
+
+.navbar .container {
+    /*max-width: 1240px;*/
+    max-width: 1400px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+/*.navbar .logo span {*/
+/*    color: #93c4c9;*/
+/*}*/
+
+/*.navbar .logo h1 {*/
+/*    color: #e5e4e4;*/
+/*}*/
+
+.navbar .logo{
+display: flex;
+}
+
+.navbar .logo span {
+    color: #75c7d0;
+}
+
+.navbar .logo h1 {
+    color: #bfc1ca;
+    margin-top: 32px;
+}
+
+.navbar .nav_menu {
+    display: flex;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.navbar li {
+    padding: 1rem;
+}
+
+.navbar li:hover:nth-child(-n+4) {
+    padding: 1rem;
+    border-bottom: 1px solid;
+    color: #3f445b;
+}
+
+.hamburger {
+    display: none;
+}
+
+.navbar .icon {
+    font-size: 2rem;
+    padding: 6px;
+}
+.navbar .icon:hover {
+    padding: 6px;
+    background-color: #f2f2f6;
+    border-radius: 50%;
+}
+/*.navbar .icon_instagram{*/
+/*    font-size: 1.4rem;*/
+/*    margin-left: 4px;*/
+/*}*/
+/*.navbar .mail {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    color: #3f445b;*/
+/*}*/
+
+@media screen and (max-width: 940px) {
+    .hamburger {
+        display: block;
+    }
+
+    .navbar .nav_menu {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: 90px;
+        right: -100%;
+        height: 100%;
+        width: 100%;
+        background: rgba(255, 255, 255, .98);
+        transition: 0.4s ease-in-out;
+        z-index: 10;
+    }
+
+    .navbar .active {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: 90px;
+        right: 0;
+        /*height: 100%;*/
+        width: 100%;
+        background: rgba(255, 255, 255, .98);
+        transition: 0.4s ease-in-out;
+        z-index: 9;
+    }
+
+    .navbar .active {
+        right: 0;
+    }
+
+    .navbar .nav_menu li a {
+        font-size: 2rem;
+    }
+}
+
+.btn {
+    color: #fff;
+    padding: 12px 24px;
+    background-image: linear-gradient(45deg, #5651e5 0%, #709dff 100%);
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.btn:active {
+    transform: translate(4px);
+    box-shadow: 0px 0px 1px rgba(0, 0, 0,.2);
+    border-bottom:none;
+}
