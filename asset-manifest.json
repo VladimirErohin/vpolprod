@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/vpolprod/static/css/main.6422199d.css",
+    "main.js": "/vpolprod/static/js/main.d6bd563f.js",
+    "static/media/house2.png": "/vpolprod/static/media/house2.42e44157b4b76452542c.png",
+    "static/media/house1.png": "/vpolprod/static/media/house1.78c572ee2058b721b778.png",
+    "static/media/bath1.png": "/vpolprod/static/media/bath1.7277066f909847c1b325.png",
+    "static/media/bed3.png": "/vpolprod/static/media/bed3.752a68b2f482cb4c9508.png",
+    "static/media/bed4.png": "/vpolprod/static/media/bed4.a152a35d3a50a64d1e46.png",
+    "static/media/bed1.png": "/vpolprod/static/media/bed1.d89f5d1d099917e429d4.png",
+    "static/media/bed2.png": "/vpolprod/static/media/bed2.ed255ea01d172d7a5c5c.png",
+    "static/media/kitchen.png": "/vpolprod/static/media/kitchen.9031f370ddf27bff3c7b.png",
+    "static/media/living-room.png": "/vpolprod/static/media/living-room.5e994e299217576bf8b5.png",
+    "static/media/bath2.png": "/vpolprod/static/media/bath2.54daab8e10fcc04fba33.png",
+    "static/media/order.jpg": "/vpolprod/static/media/order.d44af5f3bba2d63ea158.jpg",
+    "static/media/2img.png": "/vpolprod/static/media/2img.9298c78be1ac234f0fae.png",
+    "static/media/1img.png": "/vpolprod/static/media/1img.3a42f8d8bbe582e833a9.png",
+    "static/media/3img.png": "/vpolprod/static/media/3img.920befcf364d6c61db99.png",
+    "static/media/content.jpg": "/vpolprod/static/media/content.5e7f647b3c9bda0430aa.jpg",
+    "static/media/spreed_floor2.png": "/vpolprod/static/media/spreed_floor2.9d22944544456d886474.png",
+    "static/media/floor2.jpg": "/vpolprod/static/media/floor2.b6cf90ab8ab5118d31c2.jpg",
+    "static/media/floor3.jpg": "/vpolprod/static/media/floor3.9fcf47358735d1194a43.jpg",
+    "static/media/spreed_floor1.jpg": "/vpolprod/static/media/spreed_floor1.073b5fe5ace5ae5097ae.jpg",
+    "static/media/floor4.jpg": "/vpolprod/static/media/floor4.907fc7c35cf08cccc5ef.jpg",
+    "static/media/spreed_floor4.jpg": "/vpolprod/static/media/spreed_floor4.d610a9234f942daa2fa8.jpg",
+    "static/media/spredd-floor3.jpg": "/vpolprod/static/media/spredd-floor3.2a3c2b95b8b8f71cb651.jpg",
+    "static/media/floor1.jpg": "/vpolprod/static/media/floor1.d628dc23518893d39d8e.jpg",
+    "static/media/logo_site_footer.jpg": "/vpolprod/static/media/logo_site_footer.eb449146a0eeaaa92dd2.jpg",
+    "static/media/logo_site.png": "/vpolprod/static/media/logo_site.31d320675a50958a2786.png",
+    "static/media/slick.svg": "/vpolprod/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/vpolprod/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/vpolprod/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/vpolprod/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/vpolprod/index.html",
+    "main.6422199d.css.map": "/vpolprod/static/css/main.6422199d.css.map",
+    "main.d6bd563f.js.map": "/vpolprod/static/js/main.d6bd563f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6422199d.css",
+    "static/js/main.d6bd563f.js"
+  ]
+}
