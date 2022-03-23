@@ -67,8 +67,7 @@ display: flex;
 
 .navbar .icon {
     font-size: 2rem;
-    padding: 2px;
-    margin-top: 18px;
+    padding: 6px;
 }
 .navbar .icon:hover {
     padding: 6px;
@@ -90,7 +89,7 @@ display: flex;
         display: block;
     }
 
-    .navbar .nav_menu {
+    .nav_menu {
         position: absolute;
         display: flex;
         flex-direction: column;
@@ -124,6 +123,11 @@ display: flex;
 
     .navbar .nav_menu li a {
         font-size: 2rem;
+    }
+
+    .navbar .icon {
+        margin-top: 22px;
+        padding: 2px;
     }
 }
 

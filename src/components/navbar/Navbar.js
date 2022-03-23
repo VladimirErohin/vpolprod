@@ -5,7 +5,7 @@ import {HiOutlineMail} from 'react-icons/hi';
 import {AiOutlineInstagram} from 'react-icons/ai';
 import {RiFacebookCircleLine} from 'react-icons/ri';
 import style from './Navbar.module.css';
-import {Link} from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
 import logo from "../../assets/logo_site.png";
 
 const Navbar = () => {
@@ -24,10 +24,10 @@ const Navbar = () => {
                 </Link>
                 {/*<button className={style.btn}>Sign In</button>*/}
                 <ul className={isShowMenu ? style.nav_menu && style.active : style.nav_menu}>
-                    <li onClick={handleIsShowMenu}><Link to='/main'>Главная</Link></li>
-                    <li onClick={handleIsShowMenu}><Link to='/options'>Услуги</Link></li>
-                    <li onClick={handleIsShowMenu}><Link to='/prices'>Цены</Link></li>
-                    <li onClick={handleIsShowMenu}><Link to='/contacts'>Контакты</Link></li>
+                    <li onClick={handleIsShowMenu}><NavLink to='/main'>Главная</NavLink></li>
+                    <li onClick={handleIsShowMenu}><NavLink to='/options'>Услуги</NavLink></li>
+                    <li onClick={handleIsShowMenu}><NavLink to='/prices'>Цены</NavLink></li>
+                    <li onClick={handleIsShowMenu}><NavLink to='/contacts'>Контакты</NavLink></li>
                     <li onClick={handleIsShowMenu}>
                         <div className={style.mail}>
                             {isShowMenu
@@ -43,7 +43,7 @@ const Navbar = () => {
                                     className={style.icon}/></a>
                             }
 
-                            <Link to='/contacts'><HiOutlineMail className={style.icon}/></Link>
+                            <NavLink to='/contacts'><HiOutlineMail className={style.icon}/></NavLink>
                         </div>
                     </li>
                     {/*<li>Weather</li>*/}
@@ -59,13 +59,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-//                   <li onClick={handleIsShowMenu}><Link to = '/main'>Главная</Link></li>
-//                     <li onClick={handleIsShowMenu}><Link to = '/options'>Услуги</Link></li>
-//                     <li onClick={handleIsShowMenu}><Link to = '/prices'>Цены</Link></li>
-//                     <li onClick={handleIsShowMenu}><Link to='/contacts'>Контакты</Link></li>
-
-//                    {/*<li onClick={handleIsShowMenu}><a href='/main'>Главная</a></li>*/}
-//                     {/*<li onClick={handleIsShowMenu}><a href='/options'>Услуги</a></li>*/}
-//                     {/*<li onClick={handleIsShowMenu}><a href='/prices'>Цены</a></li>*/}
-//                     {/*<li onClick={handleIsShowMenu}><a href='/contacts'>Контакты</a></li>*/}
