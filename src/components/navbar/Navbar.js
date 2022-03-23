@@ -24,10 +24,10 @@ const Navbar = () => {
                 </Link>
                 {/*<button className={style.btn}>Sign In</button>*/}
                 <ul className={isShowMenu ? style.nav_menu && style.active : style.nav_menu}>
-                    <li onClick={handleIsShowMenu}><a href='/main'>Главная</a></li>
-                    <li onClick={handleIsShowMenu}><a href='/options'>Услуги</a></li>
-                    <li onClick={handleIsShowMenu}><a href='/prices'>Цены</a></li>
-                    <li onClick={handleIsShowMenu}><a href='/contacts'>Контакты</a></li>
+                    <li onClick={handleIsShowMenu}><Link to='/main'>Главная</Link></li>
+                    <li onClick={handleIsShowMenu}><Link to='/options'>Услуги</Link></li>
+                    <li onClick={handleIsShowMenu}><Link to='/prices'>Цены</Link></li>
+                    <li onClick={handleIsShowMenu}><Link to='/contacts'>Контакты</Link></li>
                     <li onClick={handleIsShowMenu}>
                         <div className={style.mail}>
                             {isShowMenu
@@ -64,3 +64,8 @@ export default Navbar;
 //                     <li onClick={handleIsShowMenu}><Link to = '/options'>Услуги</Link></li>
 //                     <li onClick={handleIsShowMenu}><Link to = '/prices'>Цены</Link></li>
 //                     <li onClick={handleIsShowMenu}><Link to='/contacts'>Контакты</Link></li>
+
+//                    {/*<li onClick={handleIsShowMenu}><a href='/main'>Главная</a></li>*/}
+//                     {/*<li onClick={handleIsShowMenu}><a href='/options'>Услуги</a></li>*/}
+//                     {/*<li onClick={handleIsShowMenu}><a href='/prices'>Цены</a></li>*/}
+//                     {/*<li onClick={handleIsShowMenu}><a href='/contacts'>Контакты</a></li>*/}
