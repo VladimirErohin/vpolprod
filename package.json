@@ -1,8 +1,6 @@
 {
   "name": "pet-one",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://vladimirerohin.github.io/vpolprod/",
   "dependencies": {
     "@emailjs/browser": "^3.4.0",
     "@emotion/react": "^11.8.1",
