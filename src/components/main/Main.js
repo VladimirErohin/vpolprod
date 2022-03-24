@@ -1,5 +1,4 @@
-import React, {useEffect} from 'react';
-import Best from "../best/Best";
+import React from 'react';
 import SearchElement from "../search-element/SearchElement";
 import SlickBox from "../slick-box/SlickBox";
 import {HomeWrapper} from "../style";
@@ -11,7 +10,6 @@ const Main = () => {
         <div>
             <SearchElement/>
             <Order/>
-            {/*<Best/>*/}
             <HomeWrapper>
                 <SlickBox/>
             </HomeWrapper>

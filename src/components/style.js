@@ -5,10 +5,6 @@ export const HomeWrapper = styled.div`
     background-color: #d2d2d7;
   }
 
-  //.rec.rec-arrow:disabled {
-  //  visibility: hidden;
-  //}
-
   .rec.rec-arrow {
     background-color: #d2d2d7;
   }

@@ -1,5 +1,4 @@
     import React from 'react';
-    import Slider from "react-slick";
     import "slick-carousel/slick/slick.css";
     import "slick-carousel/slick/slick-theme.css";
     import Carousel from "react-elastic-carousel";
@@ -25,33 +24,10 @@
             { width: 1500, itemsToShow: 6},
         ]
 
-        // const settings = {
-        //     dots: true,
-        //     infinite: true,
-        //     speed: 500,
-        //     slidesToShow: 4,
-        //     slidesToScroll: 4
-        // };
-
         return (
-
-            // <div className={style.container}>
-            //     <h2> Multiple items </h2>
-            //     <Slider {...settings}>
-            //         <div><img src={Floor1} alt=""/></div>
-            //         <div><img src={Floor4} alt=""/></div>
-            //         <div><img src={Floor2} alt=""/></div>
-            //         <div><img src={Floor3} alt=""/></div>
-            //         <div><img src={Floor4} alt=""/></div>
-            //         <div><img src={Floor1} alt=""/></div>
-            //         <div><img src={Floor2} alt=""/></div>
-            //         <div><img src={Floor3} alt=""/></div>
-            //     </Slider>
-            // </div>
             < div className={style.slick_box}>
                 <h1 style={{ textAlign: "center", marginBottom:'26px'}}>Галерея</h1>
                     <Carousel breakPoints={breakPoints}>
-                    {/*<Carousel itemPadding={[10, 0]} itemsToShow={4}>*/}
                         <img src={Floor1} alt=""/>
                         <img src={Floor5} alt=""/>
                         <img src={Floor6} alt=""/>

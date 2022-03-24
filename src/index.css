@@ -25,17 +25,7 @@ body {
 }
 
 .container_app{
-  /*position: relative;*/
-  /*width: 100%;*/
-  /*max-width: 1240px;*/
   max-width: 1400px;
   margin: auto;
 }
-
-/*.main_wrapper{*/
-/*  overflow: hidden;*/
-/*  display: flex;*/
-/*  flex-direction:column ;*/
-/*  min-height: 100vh;*/
-/*}*/
 

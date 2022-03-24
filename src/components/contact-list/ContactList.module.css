@@ -9,27 +9,9 @@ h3{
 
 .contacts {
     color: #75c7d0;
-    /*margin-top: 2px;*/
-    /*font-weight: bold;*/
     display: flex;
     align-items: center;
 }
-
-/*.order_number{*/
-/*    margin-top: 2px;*/
-/*    font-weight: bold;*/
-/*    font-family: Roboto;*/
-/*}*/
-
-
-/*.contacts_color {*/
-/*    color: white;*/
-/*    margin-top: 4px;*/
-/*    font-weight: bold;*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    font-size: 16px;*/
-/*}*/
 
 .icon {
     color: #75c7d0;
@@ -46,39 +28,10 @@ h3{
     color: #5a5d5e;
 }
 
-
-/*.order_contacts {*/
-/*    display: flex;*/
-/*    margin-top: 20px;*/
-/*}*/
-
-/*.order_phone {*/
-/*    display: flex;*/
-/*    font-weight: bold;*/
-/*    font-family: Roboto;*/
-/*}*/
-
-/*.order_phone:hover {*/
-/*    color: #75c7d0;*/
-/*}*/
-
-/*.order_icon {*/
-/*    font-size: 1.5rem;*/
-/*    margin-left: 6px;*/
-/*}*/
-
-/*.order_icon:hover {*/
-/*    color: #75c7d0;*/
-/*}*/
-
 .order_number{
     display: flex;
     margin-top: 2px;
     font-weight: bold;
     font-family: Roboto;
 }
-
-/*.order_number:hover {*/
-/*    color: #75c7d0;*/
-/*}*/
 

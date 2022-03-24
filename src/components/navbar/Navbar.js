@@ -5,7 +5,7 @@ import {HiOutlineMail} from 'react-icons/hi';
 import {AiOutlineInstagram} from 'react-icons/ai';
 import {RiFacebookCircleLine} from 'react-icons/ri';
 import style from './Navbar.module.css';
-import {Link, NavLink} from "react-router-dom";
+import {Link} from "react-router-dom";
 import logo from "../../assets/logo_site.png";
 
 const Navbar = () => {
@@ -22,12 +22,11 @@ const Navbar = () => {
                         <img src={logo} style={{width: 150, height: 84}} alt="logo"/><h1><span>Vpol</span>Prod</h1>
                     </div>
                 </Link>
-                {/*<button className={style.btn}>Sign In</button>*/}
                 <ul className={isShowMenu ? style.nav_menu && style.active : style.nav_menu}>
-                    <li onClick={handleIsShowMenu}><NavLink to='/main'>Главная</NavLink></li>
-                    <li onClick={handleIsShowMenu}><NavLink to='/options'>Услуги</NavLink></li>
-                    <li onClick={handleIsShowMenu}><NavLink to='/prices'>Цены</NavLink></li>
-                    <li onClick={handleIsShowMenu}><NavLink to='/contacts'>Контакты</NavLink></li>
+                    <li onClick={handleIsShowMenu}><a href='/main'>Главная</a></li>
+                    <li onClick={handleIsShowMenu}><a href='/options'>Услуги</a></li>
+                    <li onClick={handleIsShowMenu}><a href='/prices'>Цены</a></li>
+                    <li onClick={handleIsShowMenu}><a href='/contacts'>Контакты</a></li>
                     <li onClick={handleIsShowMenu}>
                         <div className={style.mail}>
                             {isShowMenu
@@ -43,7 +42,7 @@ const Navbar = () => {
                                     className={style.icon}/></a>
                             }
 
-                            <NavLink to='/contacts'><HiOutlineMail className={style.icon}/></NavLink>
+                            <a href='/contacts'><HiOutlineMail className={style.icon}/></a>
                         </div>
                     </li>
                     {/*<li>Weather</li>*/}

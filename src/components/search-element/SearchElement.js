@@ -1,6 +1,5 @@
 import React from 'react';
 import style from './SearchElement.module.css';
-import {IoIosSearch} from 'react-icons/io';
 
 const SearchElement = () => {
     return (
@@ -23,21 +22,7 @@ const SearchElement = () => {
                     <div className={style.description_item}>
                         <span className={style.description_step}>Рекомендуемая толщина стяжки пола</span> от 4мм и более, также рекомендуем пользоваться консультацией специалиста, который с практического и технического опыта предложит лучший вариант Вашего будущего пола.
                     </div>
-
-
                 </div>
-                {/*<form className={style.search_element}>*/}
-                {/*    <div>*/}
-                {/*        <input type="text" placeholder='Find the fit...'/>*/}
-                {/*    </div>*/}
-                {/*    <div className={style.radio}>*/}
-                {/*        <input type="radio" checked/>*/}
-                {/*        <label>Stiazhka</label>*/}
-                {/*        <input type="radio"/>*/}
-                {/*        <label>Podgotovka</label>*/}
-                {/*        <button type="submit"><IoIosSearch className={style.icon}/></button>*/}
-                {/*    </div>*/}
-                {/*</form>*/}
             </div>
         </div>
     );

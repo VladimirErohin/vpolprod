@@ -3,7 +3,6 @@ import './Order.css';
 import Picture from '../../assets/order.jpg';
 import {RiFacebookCircleLine} from "react-icons/ri";
 import {AiOutlineInstagram} from "react-icons/ai";
-import {Link} from "react-router-dom";
 import {HiOutlineMail} from "react-icons/hi";
 import {BiPhone} from "react-icons/bi";
 
@@ -27,7 +26,7 @@ const Order = () => {
                             </ a>
                             <a href="https://www.facebook.com/vpolprod/" target="_blank"><RiFacebookCircleLine className='order_icon'/></a>
                             <a href="https://www.instagram.com/vpolprod/" target="_blank"><AiOutlineInstagram className='order_icon'/></a>
-                            <Link to='/contacts'><HiOutlineMail className='order_icon'/></Link>
+                            <a href='/contacts'><HiOutlineMail className='order_icon'/></a>
                         </div>
                     </div>
                 </div>

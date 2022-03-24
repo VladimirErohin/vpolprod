@@ -22,17 +22,17 @@ const Footer = () => {
                 </div>
                 <div className="col">
                     <h3>Услуги</h3>
-                    {options.map(el=><p key={el.id}><Link to='./options' className="info">{el.option}</Link></p>)}
+                    {options.map(el=><p key={el.id}><NavLink href='./options' className="info">{el.option}</NavLink></p>)}
                 </div>
                 <div className="col">
                     <ContactList color={true}/>
                 </div>
                 <div className="col">
                     <h3>Информация</h3>
-                    <p><NavLink href = '/main' className="info">Главная</NavLink></p>
-                    <p><NavLink href = '/options' className="info">Услуги</NavLink></p>
-                    <p><NavLink href = '/prices' className="info">Цены</NavLink></p>
-                    <p><NavLink href = '/contacts' className="info">Контакты</NavLink></p>
+                    <p><a href = '/main' className="info">Главная</a></p>
+                    <p><a href = '/options' className="info">Услуги</a></p>
+                    <p><a href = '/prices' className="info">Цены</a></p>
+                    <p><a href = '/contacts' className="info">Контакты</a></p>
                 </div>
             </div>
             <div className="downs_block">
