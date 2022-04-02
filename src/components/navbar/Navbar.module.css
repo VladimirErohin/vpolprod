@@ -20,14 +20,6 @@
     padding: 1rem;
 }
 
-/*.navbar .logo span {*/
-/*    color: #93c4c9;*/
-/*}*/
-
-/*.navbar .logo h1 {*/
-/*    color: #e5e4e4;*/
-/*}*/
-
 .navbar .logo{
 display: flex;
 }
@@ -74,15 +66,6 @@ display: flex;
     background-color: #f2f2f6;
     border-radius: 50%;
 }
-/*.navbar .icon_instagram{*/
-/*    font-size: 1.4rem;*/
-/*    margin-left: 4px;*/
-/*}*/
-/*.navbar .mail {*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    color: #3f445b;*/
-/*}*/
 
 @media screen and (max-width: 940px) {
     .hamburger {

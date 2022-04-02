@@ -5,6 +5,7 @@ import {RiFacebookCircleLine} from "react-icons/ri";
 import {AiOutlineInstagram} from "react-icons/ai";
 import {HiOutlineMail} from "react-icons/hi";
 import {BiPhone} from "react-icons/bi";
+import {SiViber} from "react-icons/si";
 
 const Order = () => {
     return (
@@ -24,6 +25,7 @@ const Order = () => {
                                 <BiPhone className='order_icon'/>
                                 <span className='order_number'>+375(29)1684450</span>
                             </ a>
+                            <a href="viber://mobile?number=+375297579733"><SiViber className='order_icon' style={{marginTop:1}}/></a>
                             <a href="https://www.facebook.com/vpolprod/" target="_blank"><RiFacebookCircleLine className='order_icon'/></a>
                             <a href="https://www.instagram.com/vpolprod/" target="_blank"><AiOutlineInstagram className='order_icon'/></a>
                             <a href='/contacts'><HiOutlineMail className='order_icon'/></a>

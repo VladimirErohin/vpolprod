@@ -26,21 +26,21 @@ export const ContactForm = () => {
                 size='small'
                 label={"Name"}
                 name="name"
-                style={{ marginTop: "10px", borderRadius:'4px', backgroundColor:'white', width:'60%'}}/>
+                style={{ marginTop: "10px", borderRadius:'4px', backgroundColor:'white', width:'90%'}}/>
             <TextField
                 type="email"
                 variant="outlined"
                 size='small'
                 label={"Email"}
                 name="email"
-                style={{ marginTop: "10px", borderRadius:'4px', backgroundColor:'white', width:'60%'}}/>
+                style={{ marginTop: "10px", borderRadius:'4px', backgroundColor:'white', width:'90%'}}/>
                 <TextField
                     type="text"
                     variant="outlined"
                     size='small'
                     label={"Subject"}
                     name="subject"
-                    style={{ marginTop: "10px",borderRadius:'4px', backgroundColor:'white', width:'60%'}}/>
+                    style={{ marginTop: "10px",borderRadius:'4px', backgroundColor:'white', width:'90%'}}/>
                 <TextField
                     type="text"
                     variant="outlined"
