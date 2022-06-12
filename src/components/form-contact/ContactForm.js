@@ -28,7 +28,9 @@ export const ContactForm = () => {
 
     return (
         <form ref={form} onSubmit={sendEmail} className='form_email'>
-            {loading ? <CircularProgress color="inherit" style={{color: '#d2d2d7', marginTop: "10px"}}/> : ''};
+            {loading
+                ? <CircularProgress color="inherit" style={{color: '#d2d2d7', marginTop: "10px"}}/>
+                : ''}
             {alert
                 ? <Alert
                     severity="success"
