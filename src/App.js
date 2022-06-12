@@ -7,15 +7,13 @@ import AppRouter from "./AppRouter";
 
 function App() {
     return (
-        <div className='main_wrapper'>
+        <>
             <BrowserRouter>
-            <Navbar/>
-            <div className="container_app">
+                <Navbar/>
                 <AppRouter/>
-            </div>
-           <Footer/>
+                <Footer/>
             </BrowserRouter>
-        </div>
+        </>
     );
 }
 

@@ -25,7 +25,7 @@ const Order = () => {
                                 <BiPhone className='order_icon'/>
                                 <span className='order_number'>+375(29)1684450</span>
                             </ a>
-                            <a href="viber://mobile?number=+375297579733"><SiViber className='order_icon' style={{marginTop:1}}/></a>
+                            <a href="viber://chat?number=%2B375291684450"><SiViber className='order_icon' style={{marginTop:1}}/></a>
                             <a href="https://www.facebook.com/vpolprod/" target="_blank"><RiFacebookCircleLine className='order_icon'/></a>
                             <a href="https://www.instagram.com/vpolprod/" target="_blank"><AiOutlineInstagram className='order_icon'/></a>
                             <a href='/contacts'><HiOutlineMail className='order_icon'/></a>

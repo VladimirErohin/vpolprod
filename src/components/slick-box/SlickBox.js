@@ -12,6 +12,9 @@
     import Floor6 from '../../assets/spreed_floor1.jpg';
     import Floor7 from '../../assets/spredd-floor3.jpg';
     import Floor8 from '../../assets/spreed_floor4.jpg';
+    import Floor9 from '../../assets/spreed-floor5.jpg';
+    import Floor10 from '../../assets/spreed-floor7.jpg';
+    import Floor11 from '../../assets/spreed-floor8.jpg';
 
     const SlickBox = () => {
 
@@ -36,6 +39,9 @@
                         <img src={Floor8} alt=""/>
                         <img src={Floor2} alt=""/>
                         <img src={Floor3} alt=""/>
+                        <img src={Floor9} alt=""/>
+                        <img src={Floor10} alt=""/>
+                        <img src={Floor11} alt=""/>
                     </Carousel>
             </div>
         );

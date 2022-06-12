@@ -30,7 +30,7 @@ const ContactList = ({}) => {
         className={style.icon}/><span>instagram</span></a>
     </p>
             <a className={style.contacts}
-               href="viber://chat?number=%2B375297579733">
+               href="viber://chat?number=%2B375291684450">
             <span className={style.contacts}>
                     <SiViber className={style.icon}/>
                 <span>viber</span>

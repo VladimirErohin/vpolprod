@@ -9,10 +9,12 @@ const Main = () => {
     return (
         <div>
             <SearchElement/>
-            <Order/>
-            <HomeWrapper>
-                <SlickBox/>
-            </HomeWrapper>
+            <div className="container_app">
+                <Order/>
+                <HomeWrapper>
+                    <SlickBox/>
+                </HomeWrapper>
+            </div>
         </div>
     );
 };

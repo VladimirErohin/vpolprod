@@ -27,5 +27,7 @@ body {
 .container_app{
   max-width: 1400px;
   margin: auto;
+
+  min-height: 100vh;
 }
 
