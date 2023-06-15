@@ -75,7 +75,7 @@ export const ContactForm = () => {
                 multiline
                 rows={5}
                 rowsMax={10}
-                style={{marginTop: "10px", borderRadius: '4px', backgroundColor: 'white'}}
+                style={{marginTop: "10px", borderRadius: '4px', backgroundColor: 'white', width: '90%'}}
                 required
                 id="outlined-required"/>
             <Button

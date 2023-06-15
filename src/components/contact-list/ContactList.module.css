@@ -1,4 +1,6 @@
 .contact_list{
+    /*display: flex;*/
+    /*flex-direction: column;*/
     margin-right: 5rem;
     width: 50%;
 }
@@ -12,12 +14,22 @@ h3{
     display: flex;
     align-items: center;
 }
+.contacts_viber{
+    margin-left: 2px;
+    display: flex;
+}
 
 .icon {
     color: #75c7d0;
     margin-right: 4px;
     height: 24px;
     width: 24px;
+}
+.icon_viber{
+    color: #75c7d0;
+    margin-right: 6px;
+    height: 22px;
+    width: 21px;
 }
 
 

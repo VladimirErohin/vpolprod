@@ -53,10 +53,14 @@
 }
 
 @media screen and (max-width: 940px) {
+    .footer{
+        padding: 0;
+    }
     .footer .container {
-        display: flex;
-        flex-direction: column;
-        margin: 0 10px;
+        /*display: flex;*/
+        /*flex-direction: column;*/
+        /*margin: 0 10px;*/
+        display: none;
     }
 
     .footer .col {
@@ -67,11 +71,8 @@
         display: flex;
         flex-wrap: wrap;
         height: 100%;
-        /*align-items: center;*/
-        justify-content: center;
-        /*height: 50px;*/
-        /*background: #414654;*/
-        /*color: white;*/
+        justify-content: space-between;
+        flex-direction: column;
         padding: 10px 3.2rem;
     }
 }
