@@ -1,10 +1,11 @@
 import React from 'react';
 import style from './SearchElement.module.css';
-import {BiPhone} from "react-icons/bi";
 import {SiViber} from "react-icons/si";
 import {RiFacebookCircleLine} from "react-icons/ri";
 import {AiOutlineInstagram} from "react-icons/ai";
 import {HiOutlineMail} from "react-icons/hi";
+import Currency from "../currency/Currency";
+import Weather from "../weather/Weather";
 
 const SearchElement = () => {
     return (
@@ -22,13 +23,19 @@ const SearchElement = () => {
                             <span className='order_number'>+375(29)168-44-50</span>
                         </ a>
                         <div className={style.list_icons}>
-                            <a href="viber://chat?number=%2B375291684450"><SiViber className={style.contact_icon} style={{marginTop:1}}/></a>
+                            <a href="viber://chat?number=%2B375291684450"><SiViber className={style.contact_icon_viber}/></a>
                             <a href="https://www.facebook.com/vpolprod/" target="_blank"><RiFacebookCircleLine className={style.contact_icon}/></a>
                             <a href="https://www.instagram.com/vpolprod/" target="_blank"><AiOutlineInstagram className={style.contact_icon}/></a>
                             <a href='/contacts'><HiOutlineMail className={style.contact_icon}/></a>
                         </div>
                     </div>
                 </div>
+
+                <div className={style.general_info}>
+                    <div><Currency/></div>
+                    <div className={style.general_info_weather}><Weather/></div>
+                </div>
+
                 <div className={style.search_text}>
                     <div className={style.description_item}>
                         <span className={style.description_step}>Стяжка пола предназначена</span> для выравнивания

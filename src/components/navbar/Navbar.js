@@ -35,7 +35,7 @@ const Navbar = () => {
                         <span>+375(29) 168-44-50</span>
                     </a></li>
                     <li style={{fontFamily:'Arial', color:'#75c7d0'}}><Currency/></li>
-                    <li style={{fontFamily:'Arial', cursor:'pointer'}} className={style.weather_info}><Weather/></li>
+                    <li style={{fontFamily:'Arial', cursor:'pointer'}}><Weather/></li>
                     <li onClick={handleIsShowMenu}>
                         <div className={style.mail}>
                             {isShowMenu

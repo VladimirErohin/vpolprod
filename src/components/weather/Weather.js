@@ -1,5 +1,4 @@
 import React, {useEffect} from 'react';
-import style from '../navbar/Navbar.module.css';
 import {useDispatch, useSelector} from "react-redux";
 import weatherService from "../../api/WeatherServices";
 import {getWeather} from "../../redux/slices/weather/slice";
@@ -31,12 +30,11 @@ const Weather = () => {
         <div>
             <i title="Погода в Минске">
                 {temperature > 0
-                    ? <div className={style.weather_info}>
+                    ? <div style={{display:'flex', alignItems:"center"}}>
                         <img src={`https://openweathermap.org/img/w/${iconForWeather}.png`} alt="icon weather"/>
                         <div>+{temperature}</div>
-                    <
-                        /div>
-                    : <div className={style.weather_info}><img
+                    </div>
+                    : <div style={{display:'flex', alignItems:"center"}}><img
                         src={`https://openweathermap.org/img/w/${iconForWeather}.png`} alt="icon weather"/>
                         <div>-{temperature}</div>
                     </div>}

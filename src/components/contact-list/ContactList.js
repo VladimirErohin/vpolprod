@@ -11,7 +11,7 @@ const ContactList = ({}) => {
     return (
         <div className={style.contact_list}>
             <h3>Контакты</h3>
-            <div style={{display: "flex", flexDirection:"column"}}>
+            <div className={style.contact_list_contacts}>
                 <a href="tel:+375291684450"
                    className={style.contacts}>
                 <span className={style.contacts}>
@@ -20,12 +20,10 @@ const ContactList = ({}) => {
                 </span>
                 </a>
                 <p className={style.contacts}><a href='/contacts' className={style.contacts}><HiOutlineMail
-                    //className={style.icon}/></a></p>
                     className={style.icon}/>vpolprod@gmail.com</a></p>
                 <p className={style.contacts}>
                     <a href="https://www.facebook.com/vpolprod/" target="_blank"
                        className={style.contacts}><RiFacebookCircleLine
-                        //className={style.icon}/></a>
                      className={style.icon}/><span>facebook</span></a>
                 </p>
                 <p className={style.contacts}><a href="https://www.instagram.com/vpolprod/"

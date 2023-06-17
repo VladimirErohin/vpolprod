@@ -1,8 +1,12 @@
 .contact_list{
-    /*display: flex;*/
-    /*flex-direction: column;*/
     margin-right: 5rem;
     width: 50%;
+}
+
+.contact_list_contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 h3{

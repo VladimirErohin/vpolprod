@@ -1,7 +1,6 @@
 .search {
     background-color: rgba(0,0,0,.5);
     color: white;
-    /*height: 72vh;*/
     height: 80vh;
     width: 100%;
     position: relative;
@@ -37,7 +36,6 @@
 }
 
 .search .content_title{
-    /*margin-bottom: 10px;*/
     margin: 30px 0 0 0;
 }
 
@@ -56,7 +54,6 @@ padding: 1rem 0;
     font-weight: bold;
 }
 .search .contacts_list{
-
     display: flex;
     flex-direction: column;
     border-bottom: 1px solid white;
@@ -86,6 +83,16 @@ padding: 1rem 0;
 .contact_icon {
     color: white;
     margin-left: 10px;
+}
+.contact_icon_viber {
+    color: white;
+    margin-left: 10px;
+    width: 28px;
+    height: 28px;
+}
+
+.info{
+    display: none;
 }
 
 .search h1{
@@ -156,7 +163,6 @@ padding: 1rem 0;
         width: 100%;
         position: relative;
         margin-top: 90px;
-        /*margin-bottom: 4rem;*/
     }
 
     .search .content{
@@ -165,6 +171,18 @@ padding: 1rem 0;
     .search .contacts{
         padding: 0;
     }
+
+    .search .general_info{
+        display: flex;
+        align-items: center;
+        margin-top: 3rem;
+        font-family: Roboto;
+        font-size: 20px;
+    }
+    .search .general_info_weather{
+        margin-left: 20px;
+    }
+
     .search h1{
         font-size: 2.5rem;
     }
@@ -189,7 +207,6 @@ padding: 1rem 0;
     .search .contacts_list{
         border-bottom: 1px solid white;
         font-size: 30px;
-        /*padding: 2px 0;*/
         width: 100%;
     }
 
